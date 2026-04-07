@@ -20,6 +20,8 @@ A console-based Java application that simulates how a railway system manages a t
 | UC1      | Initialize train and display consist summary    | Class, Main Method, ArrayList               |
 | UC2      | Add/remove passenger bogies and check existence | ArrayList CRUD, add(), remove(), contains() |
 | UC3      | Ensure unique bogie IDs using HashSet           | Set, HashSet                                |
+| UC4      | LinkedList                                      | Order + efficient insertion                 |
+
 ---
 
 ## 🛠️ Tech Stack
