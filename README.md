@@ -22,6 +22,7 @@ A console-based Java application that simulates how a railway system manages a t
 | UC3      | Ensure unique bogie IDs using HashSet           | Set, HashSet                                |
 | UC4      | LinkedList                                      | Order + efficient insertion                 |
 | UC5      | LinkedHashSet                                   | Order + uniqueness                          |
+| UC6      | HashMap                                         | Key-value mapping (bogie → capacity)        |
 
 ---
 
