@@ -30,6 +30,7 @@ A console-based Java application that simulates how a railway system manages a t
 ---
 
 ## 📂 Project Structure
+```
 Train-Consist-Management-App/
 │
 ├── src/
@@ -43,7 +44,7 @@ Train-Consist-Management-App/
 │
 ├── README.md
 └── .gitignore
-
+```
 ---
 
 ## 🚀 How to Run
