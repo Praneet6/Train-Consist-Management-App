@@ -19,7 +19,7 @@ A console-based Java application that simulates how a railway system manages a t
 |----------|-------------------------------------------------|---------------------------------------------|
 | UC1      | Initialize train and display consist summary    | Class, Main Method, ArrayList               |
 | UC2      | Add/remove passenger bogies and check existence | ArrayList CRUD, add(), remove(), contains() |
-
+| UC3      | Ensure unique bogie IDs using HashSet           | Set, HashSet                                |
 ---
 
 ## 🛠️ Tech Stack
@@ -30,6 +30,7 @@ A console-based Java application that simulates how a railway system manages a t
 ---
 
 ## 📂 Project Structure
+```
 Train-Consist-Management-App/
 │
 ├── src/
@@ -43,7 +44,7 @@ Train-Consist-Management-App/
 │
 ├── README.md
 └── .gitignore
-
+```
 ---
 
 ## 🚀 How to Run
