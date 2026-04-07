@@ -49,12 +49,12 @@ Train-Consist-Management-App/
 
 ## 🚀 How to Run
 
-1. Compile:
+1 . Compile:
 
-javac src/main/*.java
+ javac src/main/*.java
 
 
-2. Run:
+2 . Run:
 
 java src.main.UseCase1TrainConsistMgmnt
 java src.main.UseCase2TrainConsistMgmnt
