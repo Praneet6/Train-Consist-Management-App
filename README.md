@@ -21,6 +21,7 @@ A console-based Java application that simulates how a railway system manages a t
 | UC2      | Add/remove passenger bogies and check existence | ArrayList CRUD, add(), remove(), contains() |
 | UC3      | Ensure unique bogie IDs using HashSet           | Set, HashSet                                |
 | UC4      | LinkedList                                      | Order + efficient insertion                 |
+| UC5      | LinkedHashSet                                   | Order + uniqueness                          |
 
 ---
 
