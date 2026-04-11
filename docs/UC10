@@ -1,0 +1,23 @@
+# UC10 - Count Total Seats in Train
+
+## Objective
+Calculate total seating capacity using Stream reduce().
+
+## Problem in UC9
+Grouping organizes data but gives no total metrics.
+
+## Solution
+Use:
+- map() to extract capacities
+- reduce() to sum values
+
+## Example
+72 + 56 + 24 + 70 = 222
+
+## Output
+Total Seating Capacity of Train: 222
+
+## Benefits
+- Functional aggregation
+- Real analytics support
+- Cleaner than manual loops
