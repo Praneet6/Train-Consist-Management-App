@@ -24,6 +24,10 @@ A console-based Java application that simulates how a railway system manages a t
 | UC5      | LinkedHashSet                                   | Order + uniqueness                          |
 | UC6      | HashMap                                         | Key-value mapping (bogie → capacity)        |
 | UC7      | Comparator + List                               | Custom sorting of bogies by capacity        |
+|UC8 | Functional Programming (Streams)|
+
+| UC9 | Collectors.groupingBy | Group bogies by type |
+| UC10 | Stream reduce() | Calculate total seating capacity |
 ---
 
 ## 🛠️ Tech Stack
