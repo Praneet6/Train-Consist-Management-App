@@ -15,20 +15,19 @@ A console-based Java application that simulates how a railway system manages a t
 
 ## 🧩 Use Cases
 
-| Use Case | Description                                     | Concepts Used                               |
-|----------|-------------------------------------------------|---------------------------------------------|
-| UC1      | Initialize train and display consist summary    | Class, Main Method, ArrayList               |
-| UC2      | Add/remove passenger bogies and check existence | ArrayList CRUD, add(), remove(), contains() |
-| UC3      | Ensure unique bogie IDs using HashSet           | Set, HashSet                                |
-| UC4      | LinkedList                                      | Order + efficient insertion                 |
-| UC5      | LinkedHashSet                                   | Order + uniqueness                          |
-| UC6      | HashMap                                         | Key-value mapping (bogie → capacity)        |
-| UC7      | Comparator + List                               | Custom sorting of bogies by capacity        |
-|UC8 | Functional Programming (Streams)|
-
-| UC9 | Collectors.groupingBy | Group bogies by type |
-| UC10 | Stream reduce() | Calculate total seating capacity |
----
+| Use Case | Description                                      | Concepts Used                                 |
+|----------|--------------------------------------------------|-----------------------------------------------|
+| UC1      | Initialize train and display consist summary     | Class, Main Method, ArrayList                 |
+| UC2      | Add/remove passenger bogies and check existence  | ArrayList CRUD, add(), remove(), contains()   |
+| UC3      | Ensure unique bogie IDs using HashSet            | Set, HashSet                                  |
+| UC4      | Maintain ordered bogie consist                   | LinkedList, insertion/removal operations      |
+| UC5      | Preserve insertion order of bogies               | LinkedHashSet, ordered uniqueness             |
+| UC6      | Map bogie to capacity                            | HashMap, key-value mapping                    |
+| UC7      | Sort bogies by capacity                          | Comparator, List, custom sorting              |
+| UC8      | Filter passenger bogies using streams            | Stream API, filter(), Lambda Expressions      |
+| UC9      | Group bogies by type                             | Collectors.groupingBy(), Map, Streams         |
+| UC10     | Count total seats in train                       | Stream reduce(), map(), aggregation           |
+| UC11     | Validate Train ID and Cargo Codes                | Regex, Pattern, Matcher                       |
 
 ## 🛠️ Tech Stack
 
