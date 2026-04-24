@@ -28,7 +28,7 @@ A console-based Java application that simulates how a railway system manages a t
 | UC9      | Group bogies by type                             | Collectors.groupingBy(), Map, Streams         |
 | UC10     | Count total seats in train                       | Stream reduce(), map(), aggregation           |
 | UC11     | Validate Train ID and Cargo Codes                | Regex, Pattern, Matcher                       |
-
+|UC13      | 
 ## 🛠️ Tech Stack
 
 - Core Java
