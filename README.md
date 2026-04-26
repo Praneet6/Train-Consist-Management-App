@@ -44,26 +44,26 @@ Train-Consist-Management-App/
 
 ## 📊 Use Case Summary
 
-| Use Case | Description                                     | Concepts Used                            |
-|----------|-------------------------------------------------|------------------------------------------|
-| UC1      | Initialize train and display consist summary    | Class, Main Method, ArrayList            |
-| UC2      | Add/remove passenger bogies                     | ArrayList CRUD, add(), remove(), contains() |
-| UC3      | Ensure unique bogie IDs                         | Set, HashSet                             |
-| UC4      | Maintain ordered train consist                  | LinkedList                               |
-| UC5      | Preserve insertion order + uniqueness           | LinkedHashSet                            |
-| UC6      | Map bogie to capacity                           | HashMap, key-value mapping               |
-| UC7      | Sort bogies by capacity                         | Comparator, List                         |
-| UC8      | Filter bogies using Streams                     | Stream API, filter(), collect()          |
-| UC9      | Group bogies by type                            | Collectors.groupingBy()                  |
-| UC10     | Calculate total seating capacity                | Stream reduce(), map()                   |
-| UC11     | Validate Train ID & Cargo Code                  | Regex, Pattern, Matcher                  |
-| UC12     | Safety compliance for goods bogies              | Streams, allMatch(), lambda              |
-| UC13     | Compare performance (Loop vs Stream)            | System.nanoTime(), benchmarking          |
-| UC14     | Handle invalid bogie capacity                   | Custom Exception, throw/throws           |
-| UC15     | Safe cargo assignment                           | try-catch-finally, Runtime Exception     |
+| Use Case | Description                                  | Concepts Used                            |
+|----------|----------------------------------------------|------------------------------------------|
+| UC1      | Initialize train and display consist summary | Class, Main Method, ArrayList            |
+| UC2      | Add/remove passenger bogies                  | ArrayList CRUD, add(), remove(), contains() |
+| UC3      | Ensure unique bogie IDs                      | Set, HashSet                             |
+| UC4      | Maintain ordered train consist               | LinkedList                               |
+| UC5      | Preserve insertion order + uniqueness        | LinkedHashSet                            |
+| UC6      | Map bogie to capacity                        | HashMap, key-value mapping               |
+| UC7      | Sort bogies by capacity                      | Comparator, List                         |
+| UC8      | Filter bogies using Streams                  | Stream API, filter(), collect()          |
+| UC9      | Group bogies by type                         | Collectors.groupingBy()                  |
+| UC10     | Calculate total seating capacity             | Stream reduce(), map()                   |
+| UC11     | Validate Train ID & Cargo Code               | Regex, Pattern, Matcher                  |
+| UC12     | Safety compliance for goods bogies           | Streams, allMatch(), lambda              |
+| UC13     | Compare performance (Loop vs Stream)         | System.nanoTime(), benchmarking          |
+| UC14     | Handle invalid bogie capacity                | Custom Exception, throw/throws           |
+| UC15     | Safe cargo assignment                        | try-catch-finally, Runtime Exception     |
 | UC16     | Bubble Sort Algorithm                        | Manual sorting using nested loops        |
- ---      | UC17 | Arrays.sort()                            | Efficient alphabetical sorting using built-in library                   |
-
+| UC17     | Arrays.sort()                                | Efficient alphabetical sorting using built-in library                   |
+| UC18     | Linear Search                                | Sequential search for bogie ID in unsorted array |
 ## ▶️ How to Run
 1. Clone the repository:
    ```bash
