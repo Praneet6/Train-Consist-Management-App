@@ -61,7 +61,7 @@ Train-Consist-Management-App/
 | UC13     | Compare performance (Loop vs Stream)            | System.nanoTime(), benchmarking               |
 | UC14     | Handle invalid bogie capacity                   | Custom Exception, throw/throws                |
 | UC15     | Safe cargo assignment                           | try-catch-finally, Runtime Exception          |
-
+| UC16     | Bubble Sort Algorithm                        | Manual sorting using nested loops            |
 ---
 
 ## ▶️ How to Run
