@@ -64,6 +64,7 @@ Train-Consist-Management-App/
 | UC16     | Bubble Sort Algorithm                        | Manual sorting using nested loops        |
 | UC17     | Arrays.sort()                                | Efficient alphabetical sorting using built-in library                   |
 | UC18     | Linear Search                                | Sequential search for bogie ID in unsorted array |
+| UC19     | Binary Search                                | Efficient search on sorted bogie IDs using divide-and-conquer |
 ## ▶️ How to Run
 1. Clone the repository:
    ```bash
