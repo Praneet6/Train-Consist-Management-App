@@ -65,6 +65,7 @@ Train-Consist-Management-App/
 | UC17     | Arrays.sort()                                | Efficient alphabetical sorting using built-in library                   |
 | UC18     | Linear Search                                | Sequential search for bogie ID in unsorted array |
 | UC19     | Binary Search                                | Efficient search on sorted bogie IDs using divide-and-conquer |
+| UC20     | IllegalStateException                        | Prevent search on empty train (fail-fast validation) |
 ## ▶️ How to Run
 1. Clone the repository:
    ```bash
